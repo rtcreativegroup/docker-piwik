@@ -1,6 +1,6 @@
 FROM php:5.6-apache
 
-ENV PIWIK_VERSION 2.13.0
+ENV PIWIK_VERSION 2.14.1
 
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
